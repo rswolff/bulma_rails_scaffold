@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -8,6 +8,8 @@
   </div>
 </section>
 
-<%%= render 'form', <%= singular_table_name %>: @<%= singular_table_name %> %>
-
-<%%= link_to 'Back', <%= index_helper %>_path %>
+<section class="section">
+  <div class="container">
+    <%%= render 'form', <%= singular_table_name %>: @<%= singular_table_name %> %>
+  </div>
+</section>
