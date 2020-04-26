@@ -1,0 +1,1 @@
+Save these files in the lib/templates/erb/scaffold folder of your Rails project. 
